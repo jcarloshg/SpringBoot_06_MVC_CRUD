@@ -26,7 +26,6 @@ public class EmployeeController {
     public String lsiEmployees(Model model) {
         List<Employee> employees = this.employeeService.findAll();
         model.addAttribute("employees", employees);
-        System.out.println(employees);
         return "listEmployees";
     }
 
