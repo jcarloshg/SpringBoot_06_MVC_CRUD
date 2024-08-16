@@ -34,14 +34,18 @@ This project uses:
 - Save data MySQL
 
 
+
 ## Results ✅
-[video]
+[Grabación de pantalla desde 15-08-24 18:40:28.webm](https://github.com/user-attachments/assets/853d0650-189c-4773-97da-67b10eea1f04)
+
+
 
 
 ## Implementation 🪖
 
 ### MVC
-Overview about the flow of the application
+Overview about the flow of the application.
+
 ![Overview MVC](DOCS_TO_RUN/images/06_overview_flow.png)
 
 ### Controller 🎛️
@@ -102,6 +106,7 @@ public class Employee {
 
 ### Thymeleaf 🍃
 - [Resources](src/main/resources)
+
 ![Files HTML](image.png)
 
 ```java
@@ -125,3 +130,6 @@ public class Employee {
     - mysql-connector-j
     - spring-boot-devtools
     - spring-boot-starter-test
+
+## Message 😃
+Please, if you have any question about the project, you should send me a email to carlosj12336@gmail 📧
