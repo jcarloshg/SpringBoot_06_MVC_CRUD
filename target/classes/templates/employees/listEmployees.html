@@ -15,7 +15,9 @@
 
     <div class="container">
 
-        <h3>Employee Directory</h3>
+        <h3 class="mt-4">Employee Directory</h3>
+
+        <hr>
 
         <a th:href="@{/employees/formAdd}" class="btn btn-primary btn-sm mb-3">
             Add employee
@@ -29,6 +31,7 @@
                     <th>First name</th>
                     <th>Last name</th>
                     <th>Email</th>
+                    <th>Action</th>
                 </tr>
 
             </thead>
@@ -39,6 +42,15 @@
                     <td th:text="${employee.firstName}"></td>
                     <td th:text="${employee.lastName}"></td>
                     <td th:text="${employee.email}"></td>
+                    <td>
+                        <a th:href="@{/employees/update(employeeID=${employee.id})}" class="btn btn-info btn-sm">
+                            Update
+                        </a>
+                        <a th:href="@{/employees/delete(employeeID=${employee.id})}" class="btn btn-danger btn-sm"
+                            onclick="if (!(confirm('Do you want to delete this employee?'))) return false">
+                            Delete
+                        </a>
+                    </td>
 
                 </tr>
             </tbody>
