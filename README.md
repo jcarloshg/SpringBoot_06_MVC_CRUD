@@ -64,7 +64,7 @@ Overview about the flow of the application.
 #### Repository
 - [EmployeeRepository.java](src/main/java/com/luv2code/springboot/thymeleaf/dao/EmployeeRepository.java)
 - Has the responsibility to connect with the DataBase.
-- Return responses using the model *Employee*
+- Returns responses using the model *Employee*
 
 ### Model 🧑‍🤝‍🧑
 - [Employee]()
