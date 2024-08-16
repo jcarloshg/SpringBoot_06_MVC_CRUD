@@ -21,19 +21,13 @@ public class Employee {
     @Column(name="email")
     private String email;
 
-
-    // define constructors
-    public Employee() {
-
-    }
+    public Employee() {}
 
     public Employee(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
     }
-
-    // define getter/setter
 
     public int getId() {
         return id;
